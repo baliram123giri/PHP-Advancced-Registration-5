@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Fenix&family=Poppins:ital,wght@0,700;1,300;1,600;1,900&family=Rambla:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@300;400;500;700&display=swap');
+body{
+    background: hsla(233, 74%, 21%, 1);
+  font-family: 'Poppins', sans-serif;
+background: linear-gradient(90deg, hsla(233, 74%, 21%, 1) 1%, hsla(240, 55%, 52%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(233, 74%, 21%, 1) 1%, hsla(240, 55%, 52%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(233, 74%, 21%, 1) 1%, hsla(240, 55%, 52%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0E175E", endColorstr="#4040C7", GradientType=1 );
+height: 100vh;
+color: white !important;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+.form{
+    width: 65%;
+    height: 80%;
+    box-shadow: 0px 0px 10px rgba(5, 6, 77, 0.5);
+    color: black !important;
+}
+.form form{
+    margin-top: 100px !important;
+}
+.bg-img{
+background-image: url("./img/login.jpg");
+    height: 80vh;
+    width: 100%;
+    background-position: center !important;
+    background-size: cover;
+   /* filter: hue-rotate(90deg); */
+}
+label{
+    font-size: 10px;
+}
+input{
+    height: 35px;
+}
+form button{
+    font-size: 10px !important;
+}
+form button:hover{
+    background-color: black !important;
+}
+.form-check-input{
+    height: 13px !important; width: 13px !important;
+}
